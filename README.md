@@ -1,6 +1,6 @@
 # Logistiqs — IEEE paper reproduction package
 
-This branch is a trimmed, self-contained snapshot of the Logistiqs project containing everything needed to reproduce the experiments and figures in *"Hybrid quantum-classical end-to-end pipeline for solving MILPs: a vehicle routing case study"* — nothing else. For the full research codebase (broader experiments, the interactive frontend demo, etc.), see the `research` and `dev` branches instead.
+This branch is a trimmed, self-contained snapshot of the Logistiqs project containing everything needed to reproduce the experiments and figures in *["Hybrid quantum-classical end-to-end pipeline for solving MILPs: a vehicle routing case study"](https://arxiv.org/abs/2607.26771)*.
 
 A description of the underlying method can be found [here](wiki/Project-Overview.md); a full documentation index is in the [wiki](wiki/Home.md).
 
@@ -66,6 +66,10 @@ The notebook uses committed instances + archived data, so it runs immediately wi
 ## Direct CLI usage
 
 To call the Bender's decomposition solver (`BenderMILPSolver`) directly from Python instead of through notebooks, see the [BenderMILPSolver CLI wiki](wiki/MILP-Engine/BenderMILPSolver-CLI.md).
+
+## Reference
+
+de Valk, C., Reerink, K., Sebus, S., and de Bon, S. (2026). *Hybrid quantum-classical end-to-end pipeline for solving MILPs: a vehicle routing case study*. [arXiv:2607.26771](https://arxiv.org/abs/2607.26771). [https://doi.org/10.48550/arXiv.2607.26771](https://doi.org/10.48550/arXiv.2607.26771)
 
 ## Contact
 |Name|Role|Email|

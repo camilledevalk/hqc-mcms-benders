@@ -46,3 +46,4 @@ The practicality of solving MILPs with Bender's Decomposition in this context al
 - [2] R. Rahmaniani al., ‘The Benders Decomposition Algorithm: A Literature Review’, European Journal of Operational Research, 2016.
 - [3] E. Farhi et al., ‘A Quantum Approximate Optimization Algorithm’, arXiv, 2014.
 - [4] A. Abbas et al., ‘Challenges and Opportunities in Quantum Optimization’, Nature Reviews Physics, 2024.
+- [5] C. de Valk, K. Reerink, S. Sebus, and S. de Bon, ‘Hybrid quantum-classical end-to-end pipeline for solving MILPs: a vehicle routing case study’, arXiv:2607.26771 [quant-ph], 2026. [https://doi.org/10.48550/arXiv.2607.26771](https://doi.org/10.48550/arXiv.2607.26771)
