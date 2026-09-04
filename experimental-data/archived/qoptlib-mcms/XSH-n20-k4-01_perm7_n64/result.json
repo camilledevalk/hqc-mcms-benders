@@ -1,0 +1,19 @@
+{
+  "task_id": 31,
+  "solver_name": "pulp_benders",
+  "instance_name": "XSH-n20-k4-01_perm7",
+  "params": {
+    "max_iterations": 2500,
+    "n_subproblems": 64
+  },
+  "params_label": "max_iterations=2500_n_subproblems=64",
+  "status": "Not Solved",
+  "exit_reason": "time_budget",
+  "objective_value": null,
+  "total_iterations": 77,
+  "solve_time": 5610.158687501214,
+  "final_lower_bound": 191.0,
+  "final_upper_bound": 1396.0,
+  "final_gap": "0.863181",
+  "iteration_log_file": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/results/raw/exclusion/pulp_benders__XSH-n20-k4-01__62523b10__perm7/1785368_31/iterations.jsonl"
+}

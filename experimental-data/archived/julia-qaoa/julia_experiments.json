@@ -1,0 +1,32 @@
+[
+    {
+        "benchmarking_results_file": "benchmarking_results_20250829_135803_bender_milp_solver_exl_i200_par_n5_Multi_Depot_VRP_small.jsonl",
+        "state_index": 1,
+        "backend-type": "mps-juliqaoa",
+        "optimisation-algorithm": "QAOA",
+        "optimizer_settings": {
+            "rhobeg": 1.5707963267948966,
+            "max_iter": 1000,
+            "tol": 0.0001
+        },
+        "solver_options": {
+            "reps": 1
+        },
+        "label": "MPS-JuliQAOA-1"
+    },
+    {
+        "benchmarking_results_file": "benchmarking_results_20250829_135803_bender_milp_solver_exl_i200_par_n5_Multi_Depot_VRP_small.jsonl",
+        "state_index": 1,
+        "backend-type": "mps-juliqaoa",
+        "optimisation-algorithm": "QAOA",
+        "optimizer_settings": {
+            "rhobeg": 1.5707963267948966,
+            "max_iter": 1000,
+            "tol": 0.0001
+        },
+        "solver_options": {
+            "reps": 3
+        },
+        "label": "MPS-JuliQAOA-3"
+    }
+]

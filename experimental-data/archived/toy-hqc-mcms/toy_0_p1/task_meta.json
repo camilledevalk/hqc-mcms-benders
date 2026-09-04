@@ -1,0 +1,63 @@
+{
+  "task_id": 0,
+  "slurm_job_id": "1822991",
+  "slurm_array_job_id": "1822988",
+  "slurm_array_task_id": "0",
+  "slurm_log_out": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1822988_bench_solver_0.out",
+  "slurm_log_err": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1822988_bench_solver_0.err",
+  "solver_name": "julia_benders",
+  "solver_type": "bender_milp_solver",
+  "instance_name": "toy2_0",
+  "params": {
+    "cut_selection_solver.backend.julia_options.maxdim": 64,
+    "cut_selection_solver.backend.julia_options.rhobeg": 1.5707963267948966,
+    "cut_selection_solver.solver_options.reps": 1,
+    "max_iterations": 1001,
+    "n_subproblems": 5
+  },
+  "params_label": "cut_selection_solver.backend.julia_options.maxdim=64_cut_selection_solver.backend.julia_options.rhobeg=1.5707963267948966_cut_selection_solver.solver_options.reps=1_max_iterations=1001_n_subproblems=5",
+  "params_hash": "5e5fe09c",
+  "instance_path_mps": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/instances/toy/ieee-paper-toy-bigger/toy2_0.mps",
+  "instance_path_json": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/instances/toy/ieee-paper-toy-bigger/toy2_0.json",
+  "prefix_complicating_variable": "x_",
+  "time_budget_seconds": 14400,
+  "started_at": "2026-04-26T12:58:37.405698+00:00",
+  "solver_config": {
+    "_target_": "milp_engine.solvers.bender_milp_solver.BenderMILPSolver",
+    "criterion": {
+      "_target_": "milp_engine.criteria.exclusion_criterion.ExclusionCriterion"
+    },
+    "strategy": {
+      "_target_": "milp_engine.strategies.minimum_set_cover_strategy.MinimumSetCoverStrategy"
+    },
+    "mp_solver": {
+      "_target_": "milp_engine.solvers.pulp_solver.PuLPSolver"
+    },
+    "dsp_solver": {
+      "_target_": "milp_engine.solvers.highs_solver.HiGHSSolver"
+    },
+    "cut_selection_solver": {
+      "_target_": "milp_engine.solvers.quantum_solver.QuantumSolver",
+      "backend": {
+        "_target_": "milp_engine.solvers.quantum_solver.JuliaMPSBackend",
+        "julia_options": {
+          "julia_executable": "julia",
+          "julia_project_path": "julia/MPS_JuliQAOA",
+          "n_shots": 1000,
+          "cutoff": 1e-06,
+          "optimizer": "cobyla",
+          "maxiter": 1000,
+          "maxdim": 64,
+          "rhobeg": 1.5707963267948966
+        }
+      },
+      "solver_options": {
+        "reps": 1
+      }
+    },
+    "parallel_dsp": true,
+    "convergence_bound": 0.01,
+    "max_iterations": 1001,
+    "n_subproblems": 5
+  }
+}

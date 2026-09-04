@@ -1,0 +1,88 @@
+[
+    {
+        "benchmarking_results_file": "benchmarking_results_20250829_135803_bender_milp_solver_exl_i200_par_n5_Multi_Depot_VRP_small.jsonl",
+        "state_index": 1,
+        "backend-type": "fermioniq",
+        "optimisation-algorithm": "DCQO",
+        "fermioniq_options": {
+            "remote_config": "cpu-16"
+        },
+        "label": "Fermioniq DCQO"
+    },
+    {
+        "benchmarking_results_file": "benchmarking_results_20250829_135803_bender_milp_solver_exl_i200_par_n5_Multi_Depot_VRP_small.jsonl",
+        "state_index": 1,
+        "backend-type": "fermioniq",
+        "optimisation-algorithm": "QAOA",
+        "optimizer_settings": {
+            "rhobeg": 1.5707963267948966,
+            "max_iter": 1000,
+            "tol": 0.0001
+        },
+        "fermioniq_options": {
+            "remote_config": "cpu-16"
+        },
+        "solver_options": {
+            "reps": 1
+        },
+        "label": "Fermioniq QAOA-1"
+    },
+    {
+        "benchmarking_results_file": "benchmarking_results_20250829_135803_bender_milp_solver_exl_i200_par_n5_Multi_Depot_VRP_small.jsonl",
+        "state_index": 1,
+        "backend-type": "qiskit",
+        "optimisation-algorithm": "QAOA",
+        "optimizer_settings": {
+            "rhobeg": 1.5707963267948966,
+            "tol": 0.0001,
+            "maxiter": 1000
+        },
+        "qiskit_options": {
+            "use_hardware": true,
+            "token_path": "IBM_token.txt",
+            "ibm_hardware_name": "ibm_strasbourg"
+        },
+        "solver_options": {
+            "reps": 1
+        },
+        "label": "IBM Eagle r3 QAOA-1"
+    },
+    {
+        "benchmarking_results_file": "benchmarking_results_20250829_135803_bender_milp_solver_exl_i200_par_n5_Multi_Depot_VRP_small.jsonl",
+        "state_index": 1,
+        "backend-type": "fermioniq",
+        "optimisation-algorithm": "QAOA",
+        "optimizer_settings": {
+            "rhobeg": 1.5707963267948966,
+            "max_iter": 1000,
+            "tol": 0.0001
+        },
+        "fermioniq_options": {
+            "remote_config": "cpu-16"
+        },
+        "solver_options": {
+            "reps": 3
+        },
+        "label": "Fermioniq QAOA-3"
+    },
+    {
+        "benchmarking_results_file": "benchmarking_results_20250829_135803_bender_milp_solver_exl_i200_par_n5_Multi_Depot_VRP_small.jsonl",
+        "state_index": 1,
+        "backend-type": "qiskit",
+        "optimisation-algorithm": "QAOA",
+        "optimizer_settings": {
+            "rhobeg": 1.5707963267948966,
+            "tol": 0.0001,
+            "maxiter": 1000
+        },
+        "qiskit_options": {
+            "use_hardware": true,
+            "token_path": "IBM_token.txt",
+            "ibm_hardware_name": "ibm_strasbourg"
+        },
+        "solver_options": {
+            "reps": 3
+        },
+        "label": "IBM Eagle r3 QAOA-3"
+    }
+]

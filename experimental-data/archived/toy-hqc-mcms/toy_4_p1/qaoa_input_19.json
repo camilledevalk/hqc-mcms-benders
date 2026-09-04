@@ -1,0 +1,37 @@
+{
+  "z_interactions": [
+    {
+      "qubits": [
+        1
+      ],
+      "weight": 2.0
+    },
+    {
+      "qubits": [
+        2
+      ],
+      "weight": 2.0
+    },
+    {
+      "qubits": [
+        3
+      ],
+      "weight": 2.0
+    },
+    {
+      "qubits": [
+        4
+      ],
+      "weight": 2.0
+    }
+  ],
+  "nqubits": 4,
+  "p": 1,
+  "optimize": true,
+  "optimizer": "cobyla",
+  "maxiter": 1000,
+  "cutoff": 1e-06,
+  "maxdim": 64,
+  "n_shots": 1000,
+  "rhobeg": 1.5707963267948966
+}

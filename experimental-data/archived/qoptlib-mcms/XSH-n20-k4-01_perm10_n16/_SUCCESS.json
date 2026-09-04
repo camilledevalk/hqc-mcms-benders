@@ -1,0 +1,14 @@
+[
+  {
+    "run_folder": "1785367_6",
+    "completed_at": "2026-04-24T05:10:16.641941+00:00",
+    "exit_reason": "time_budget",
+    "result_file": "1785367_6/result.json"
+  },
+  {
+    "run_folder": "1785740_6",
+    "completed_at": "2026-04-24T05:15:38.274841+00:00",
+    "exit_reason": "time_budget",
+    "result_file": "1785740_6/result.json"
+  }
+]

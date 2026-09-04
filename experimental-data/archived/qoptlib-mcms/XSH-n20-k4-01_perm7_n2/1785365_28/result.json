@@ -1,0 +1,15 @@
+{
+  "task_id": 28,
+  "solver_name": "pulp_benders",
+  "instance_name": "XSH-n20-k4-01_perm7",
+  "params": {
+    "max_iterations": 2500,
+    "n_subproblems": 2
+  },
+  "params_label": "max_iterations=2500_n_subproblems=2",
+  "status": "error",
+  "exit_reason": "exception",
+  "error": "all input arrays must have the same shape",
+  "error_type": "ValueError",
+  "solve_time": 95.15942846145481
+}

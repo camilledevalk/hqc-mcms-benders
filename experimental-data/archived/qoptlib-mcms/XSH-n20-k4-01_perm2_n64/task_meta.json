@@ -1,0 +1,59 @@
+{
+  "task_id": 11,
+  "slurm_job_id": [
+    "1788855",
+    "1789179"
+  ],
+  "slurm_array_job_id": [
+    "1785368",
+    "1785741"
+  ],
+  "slurm_array_task_id": "11",
+  "slurm_log_out": [
+    "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1785368_bench_solver_11.out",
+    "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1785741_bench_solver_11.out"
+  ],
+  "slurm_log_err": [
+    "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1785368_bench_solver_11.err",
+    "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1785741_bench_solver_11.err"
+  ],
+  "solver_name": "pulp_benders",
+  "solver_type": "bender_milp_solver",
+  "instance_name": "XSH-n20-k4-01_perm2",
+  "params": {
+    "max_iterations": 2500,
+    "n_subproblems": 64
+  },
+  "params_label": "max_iterations=2500_n_subproblems=64",
+  "params_hash": "62523b10",
+  "instance_path_mps": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/instances/ieee-paper-permuted/XSH-n20-k4-01_perm2.mps",
+  "instance_path_json": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/instances/ieee-paper-permuted/XSH-n20-k4-01_perm2.json",
+  "prefix_complicating_variable": "x_",
+  "time_budget_seconds": 5400,
+  "started_at": [
+    "2026-04-24T03:26:29.935857+00:00",
+    "2026-04-24T04:27:23.793799+00:00"
+  ],
+  "solver_config": {
+    "_target_": "milp_engine.solvers.bender_milp_solver.BenderMILPSolver",
+    "criterion": {
+      "_target_": "milp_engine.criteria.exclusion_criterion.ExclusionCriterion"
+    },
+    "strategy": {
+      "_target_": "milp_engine.strategies.minimum_set_cover_strategy.MinimumSetCoverStrategy"
+    },
+    "mp_solver": {
+      "_target_": "milp_engine.solvers.pulp_solver.PuLPSolver"
+    },
+    "dsp_solver": {
+      "_target_": "milp_engine.solvers.highs_solver.HiGHSSolver"
+    },
+    "cut_selection_solver": {
+      "_target_": "milp_engine.solvers.pulp_solver.PuLPSolver"
+    },
+    "parallel_dsp": true,
+    "convergence_bound": 0.01,
+    "max_iterations": 2500,
+    "n_subproblems": 64
+  }
+}

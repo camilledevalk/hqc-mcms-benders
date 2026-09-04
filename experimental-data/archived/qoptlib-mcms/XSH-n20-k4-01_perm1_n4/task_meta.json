@@ -1,0 +1,44 @@
+{
+  "task_id": 1,
+  "slurm_job_id": "1788925",
+  "slurm_array_job_id": "1785366",
+  "slurm_array_task_id": "1",
+  "slurm_log_out": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1785366_bench_solver_1.out",
+  "slurm_log_err": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/logs/1785366_bench_solver_1.err",
+  "solver_name": "pulp_benders",
+  "solver_type": "bender_milp_solver",
+  "instance_name": "XSH-n20-k4-01_perm1",
+  "params": {
+    "max_iterations": 2500,
+    "n_subproblems": 4
+  },
+  "params_label": "max_iterations=2500_n_subproblems=4",
+  "params_hash": "4afe2d74",
+  "instance_path_mps": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/instances/ieee-paper-permuted/XSH-n20-k4-01_perm1.mps",
+  "instance_path_json": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/instances/ieee-paper-permuted/XSH-n20-k4-01_perm1.json",
+  "prefix_complicating_variable": "x_",
+  "time_budget_seconds": 5400,
+  "started_at": "2026-04-24T03:37:17.171908+00:00",
+  "solver_config": {
+    "_target_": "milp_engine.solvers.bender_milp_solver.BenderMILPSolver",
+    "criterion": {
+      "_target_": "milp_engine.criteria.exclusion_criterion.ExclusionCriterion"
+    },
+    "strategy": {
+      "_target_": "milp_engine.strategies.minimum_set_cover_strategy.MinimumSetCoverStrategy"
+    },
+    "mp_solver": {
+      "_target_": "milp_engine.solvers.pulp_solver.PuLPSolver"
+    },
+    "dsp_solver": {
+      "_target_": "milp_engine.solvers.highs_solver.HiGHSSolver"
+    },
+    "cut_selection_solver": {
+      "_target_": "milp_engine.solvers.pulp_solver.PuLPSolver"
+    },
+    "parallel_dsp": true,
+    "convergence_bound": 0.01,
+    "max_iterations": 2500,
+    "n_subproblems": 4
+  }
+}

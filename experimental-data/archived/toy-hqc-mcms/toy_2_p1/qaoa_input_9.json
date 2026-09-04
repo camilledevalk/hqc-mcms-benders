@@ -1,0 +1,132 @@
+{
+  "z_interactions": [
+    {
+      "qubits": [
+        1
+      ],
+      "weight": 2.5
+    },
+    {
+      "qubits": [
+        2
+      ],
+      "weight": 2.5
+    },
+    {
+      "qubits": [
+        3
+      ],
+      "weight": 37.5
+    },
+    {
+      "qubits": [
+        4
+      ],
+      "weight": 34.5
+    },
+    {
+      "qubits": [
+        5
+      ],
+      "weight": 37.5
+    },
+    {
+      "qubits": [
+        6
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        7
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        1,
+        2
+      ],
+      "weight": 3.0
+    },
+    {
+      "qubits": [
+        3,
+        4
+      ],
+      "weight": 35.0
+    },
+    {
+      "qubits": [
+        3,
+        5
+      ],
+      "weight": 38.0
+    },
+    {
+      "qubits": [
+        3,
+        6
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        3,
+        7
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        4,
+        5
+      ],
+      "weight": 35.0
+    },
+    {
+      "qubits": [
+        4,
+        6
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        4,
+        7
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        5,
+        6
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        5,
+        7
+      ],
+      "weight": -35.0
+    },
+    {
+      "qubits": [
+        6,
+        7
+      ],
+      "weight": 35.0
+    }
+  ],
+  "nqubits": 7,
+  "p": 1,
+  "optimize": true,
+  "optimizer": "cobyla",
+  "maxiter": 1000,
+  "cutoff": 1e-06,
+  "maxdim": 64,
+  "n_shots": 1000,
+  "rhobeg": 1.5707963267948966
+}

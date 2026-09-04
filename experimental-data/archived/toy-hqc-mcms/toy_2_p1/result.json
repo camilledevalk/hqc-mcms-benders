@@ -1,0 +1,22 @@
+{
+  "task_id": 4,
+  "solver_name": "julia_benders",
+  "instance_name": "toy2_2",
+  "params": {
+    "cut_selection_solver.backend.julia_options.maxdim": 64,
+    "cut_selection_solver.backend.julia_options.rhobeg": 1.5707963267948966,
+    "cut_selection_solver.solver_options.reps": 1,
+    "max_iterations": 1001,
+    "n_subproblems": 5
+  },
+  "params_label": "cut_selection_solver.backend.julia_options.maxdim=64_cut_selection_solver.backend.julia_options.rhobeg=1.5707963267948966_cut_selection_solver.solver_options.reps=1_max_iterations=1001_n_subproblems=5",
+  "status": "Infeasible",
+  "exit_reason": "converged",
+  "objective_value": 33.86,
+  "total_iterations": 24,
+  "solve_time": 3189.359754614532,
+  "final_lower_bound": 33.86,
+  "final_upper_bound": 34.03,
+  "final_gap": "0.004996",
+  "iteration_log_file": "/zfsstore/user/valkcqde/documents/logistiqs/benchmarking/results/raw/exclusion/julia_benders__toy2_2__5e5fe09c/1822988_4/iterations.jsonl"
+}

@@ -1,0 +1,47 @@
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["milp_engine"]
+
+[project]
+name = "milp_engine"
+version = "0.1.0"
+requires-python = ">=3.12"
+description = "A package for MILP engine"
+authors = [
+    { name="Siert Sebus" },
+    { name="Camille de Valk", email="camille.de.valk@capgemini.com" },
+    { name="Koen Reerink" },
+]
+dependencies = [
+    "coverage==7.13.5",
+    "cplex==22.1.2.1",
+    "docplex==2.32.264",
+    "fermioniq==1.5.2",
+    "highspy==1.14.0",
+    "ipykernel==7.2.0",
+    "ipywidgets==8.1.8",
+    "jupyter==1.1.1",
+    "jupyterlab==4.5.6",
+    "lab==8.9",
+    "matplotlib==3.10.8",
+    "numpy==1.26.4",
+    "ortools==9.14.6206",
+    "pandas==2.3.3",
+    "psutil==7.2.2",
+    "pulp==3.3.0",
+    "pyscipopt==6.1.0",
+    "pytest==7.4.0",
+    "pytest-mock==3.15.1",
+    "qiskit==1.4.3",
+    "qiskit-algorithms==0.4.0",
+    "qiskit-ibm-runtime==0.39.0",
+    "qiskit-optimization[cplex]==0.7.0",
+    "ray[default]==2.52.1",
+    "sympy==1.14.0",
+    "tqdm==4.67.3",
+    "types-pyyaml==6.0.12.20250915",
+]
